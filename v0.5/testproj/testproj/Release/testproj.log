@@ -1,0 +1,52 @@
+﻿Build started 14/01/2014 16:17:14.
+     1>Project "\\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\testproj\testproj.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\testproj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameObject.cpp bullet.cpp main.cpp powerupi.cpp powerups.cpp tank.cpp
+         GameObject.cpp
+         bullet.cpp
+     1>bullet.cpp(7): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>bullet.cpp(7): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>bullet.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>bullet.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>bullet.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>bullet.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'float'
+         main.cpp
+     1>main.cpp(599): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(599): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(607): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(607): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         powerupi.cpp
+     1>powerupi.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>powerupi.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>powerupi.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>powerupi.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'float'
+         powerups.cpp
+     1>powerups.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>powerups.cpp(16): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>powerups.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>powerups.cpp(25): warning C4305: 'argument' : truncation from 'double' to 'float'
+         tank.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\Release\testproj.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\testproj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\Release\testproj.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\Release\testproj.lib" /MACHINE:X86 Release\bullet.obj
+         Release\GameObject.obj
+         Release\main.obj
+         Release\powerupi.obj
+         Release\powerups.obj
+         Release\tank.obj
+         Generating code
+     1>\\na2b\uu\up689459\ct4toga\v0.5\testproj\testproj\main.cpp(312): warning C4789: destination of memory copy is too small
+     1>\\na2b\uu\up689459\ct4toga\v0.5\testproj\testproj\main.cpp(393): warning C4789: destination of memory copy is too small
+         Finished generating code
+         testproj.vcxproj -> \\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\Release\testproj.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\Release\testproj.exe;#1" /manifest Release\testproj.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\testproj.unsuccessfulbuild".
+         Touching "Release\testproj.lastbuildstate".
+     1>Done Building Project "\\na2b\uu\UP689459\CT4TOGA\v0.5\testproj\testproj\testproj.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.25
